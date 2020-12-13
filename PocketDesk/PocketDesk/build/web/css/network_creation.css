@@ -1,0 +1,38 @@
+.u-form-group1{
+  width:100%;
+  margin-bottom: 10px;
+}
+
+.u-form-group1 input[type="network_name"],
+.u-form-group1 input[type="password"],
+.u-form-group1 input[type="invite_user"]
+{
+  width: calc(50% - 22px);
+  height:35px;
+  outline: none;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 2px;
+  color: #333;
+  font-size:0.8rem;
+  -webkit-transition:all 0.1s linear;
+  -moz-transition:all 0.1s linear;
+  transition:all 0.1s linear;
+}
+.u-form-group1 button {
+    width: 15%;
+    margin-left:15%;
+    background-color: black;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 9px 1px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.u-form-group1 input:focus{
+  border-color: #358efb;
+}
+
